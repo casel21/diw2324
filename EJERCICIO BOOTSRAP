@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap-grid.min.css">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+<style>
+
+.containera {
+  width: 40%;
+  background-color: #84badf;
+}
+.containerb {
+  width: 40%;
+  background-color: #41c2e9;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.lorem {
+  line-height: 2;
+}
+
+#rojo{
+color:red;
+background-color: rgb(250, 182, 182);
+}
+
+@media (max-width:768px){
+            #tomate{
+                display:none;
+            }
+        }
+</style>
+</head>
+<body class="p-3 m-0 border-0 bd-example m-0 border-0 bd-example-row">
+<div style="display: flex;">
+  <div class="containera">
+    <div class="title">Hablemos de ingredientes</div>
+    <div class="container text-center">
+        <div class="row row-cols-2">
+          <div class="col">Patatas</div>
+          <div class="col">Calabazas</div>
+          <div class="col">Calabazas</div>
+          <div class="col">Azúcar</div>
+          <div class="col" id="tomate">Tomates</div>
+          <div class="col">Leche</div>
+          <div class="col">Cebollas</div>
+          <div class="col" id="rojo">Café</div>
+          <div class="col">Judias</div>
+        </div>
+      </div>
+  </div> 
+  <div class="containerb" >
+    <div class="title" class="col-se-12 col-md-6" id="containerb">Hablemos de otra cosa</div>
+    <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna 
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+</div>
+
+</body>
+</html>
